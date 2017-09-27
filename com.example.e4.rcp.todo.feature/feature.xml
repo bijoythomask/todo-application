@@ -2,8 +2,7 @@
 <feature
       id="com.example.e4.rcp.todo.feature"
       label="Feature"
-      version="1.0.0.qualifier"
-      provider-name="EXAMPLE">
+      version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -19,6 +18,20 @@
 
    <plugin
          id="com.example.e4.rcp.todo"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.example.e4.todo.common"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.perspectiveswitcher"
          download-size="0"
          install-size="0"
          version="0.0.0"
