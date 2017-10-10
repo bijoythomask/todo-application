@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_cqQRkKNHEeewK7Canu7UCA" featurename="children" parentElementId="com.example.e4.rcp.todo.perspectivestack.taskmanager">
+    <elements xsi:type="advanced:Perspective" xmi:id="_mNFSsKNHEeewK7Canu7UCA" elementId="com.example.e4.todo.common.perspective.todoadmin" label="Todo Admin" iconURI="platform:/plugin/com.example.e4.todo.common/icons/Sample.png">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_ncwK0KNHEeewK7Canu7UCA" elementId="com.example.e4.todo.common.partsashcontainer.0">
+        <children xsi:type="basic:PartStack" xmi:id="_oaLcYKNHEeewK7Canu7UCA" elementId="com.example.e4.todo.common.partstack.0">
+          <children xsi:type="basic:Part" xmi:id="_rTWo8KNHEeewK7Canu7UCA" elementId="com.example.e4.todo.common.part.samplepart" contributionURI="bundleclass://com.example.e4.todo.common/com.example.e4.todo.common.parts.SampleView" label="Sample Part" iconURI="platform:/plugin/com.example.e4.todo.common/icons/Sample.png"/>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
